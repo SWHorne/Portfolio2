@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel='stylesheet' type="text/css" href="./CSS/Home.css">
+    <link rel='stylesheet' type="text/css" href="./CSS/Contact.css">
 
-    <title>Sam Horne</title>
+    <title>Contact</title>
 </head>
 
 <body>
@@ -26,30 +26,50 @@
     <a id="home"></a>
     <button class="openbtn" onclick="openNav()">☰ MENU</button>
 
+
+
     <div class="Container" id="appContainer">
         <div class="row" id="row1">
-            <div class="col-lg-12" id="homeNameCol col1x1">
-                <h1 id="nameHome">Sam Horne</h1>
+            <div class="col-lg-12" id="contactNameCol col1x1">
+                <h1 id="nameHome">My contact Info</h1>
             </div>
         </div>
         <div class="row" id="row2">
-            <div class="col-md-4" id="EmptyCol col2x1">
-                <div></div>
+            <div class="col-lg-12" id="contactInviteCol col2x1">
+                <h1 id="nameHome">Please feel free to contact me.</h1>
             </div>
-            <div class="col-md-4" id="profilePicCol col2x2">
-                <img id="profilePicHome" alt="Sam Horne" src="./Assets/Images/ProfilePic.png" />
-            </div>
-            <div class="col-md-4" id="EmptyCol col2x3">
-                <div></div>
-            </div>
+        </div>
+
+        <div class="navbar" id="ContactNav">
+            <a href="tel:8012432261" id="contactLinks"><img src="./Assets/Images/Phone.png" alt="phone icon"
+                    id="contactIcons">801.243.2261</a>
+
+            <a href="mailto:swhorne@gmail.com" id="contactLinks"><img src="./Assets/Images/Mail_icon.png"
+                    alt="mail icon" id="contactIcons">
+                swhorne@gmail.com</a>
+
+            <a href="https://github.com/SWHorne" id="contactLinks"><img src="./Assets/Images/GitHub.png"
+                    alt="github icon" id="contactIcons">GitHub</a>
+
+            <a href="https://www.linkedin.com/in/samuelhorne/" id="contactLinks"><img src="./Assets/Images/LinkedIn.png"
+                    alt="LinkedIn icon" id="contactIcons">LinkedIn</a>
+
+            <a href="./Assets/Resume.pdf" id="contactLinks"><img src="./Assets/Images/Document.png" alt="document icon"
+                    id="contactIcons">Resume</a>
+
         </div>
     </div>
 
 
+
+
+
+    <!-- Footer -->
+
     <div class="navbar" id="bottomNav">
         <a href="tel:8012432261" id="FootText">801-243-2261</a>
 
-        <a href="mailto: swhorne@gmail.com" id="FootText">swhorne@gmail.com</a>
+        <a href="mailto: swhorne@gmail.com" id="FootText emailFootText">swhorne@gmail.com</a>
 
         <a href="https://github.com/SWHorne" id="FootText">GitHub</a>
 
@@ -57,6 +77,8 @@
 
         <a href="./Assets/Resume.pdf" id="FootText">Resume</a>
     </div>
+
+
 
     <script>
         function openNav() {

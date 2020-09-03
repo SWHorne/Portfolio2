@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel='stylesheet' type="text/css" href="./CSS/portfolio.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <h1 id="menuName">Sam Horne</h1>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="./Assets/Resume.pdf" target="_blank">Resume</a>
+    </div>
+
+    <a id="home"></a>
+    <button class="openbtn" onclick="openNav()">☰ MENU</button>
+    
+
+    <div class="container" id="appContainer">
+      <div class="row" id="row1">
+        <div class="col-lg-12" id="homeNameCol col1x1" style="text-align: center;">
+        <div class="album" id="cardAlbum">
+          <h1 id="nameHome">Portfolio</h1>
+        </div>
+          </div>
+      </div>
+  
+        <div class="row" id="portfolioRow">
+          <div class="col-sm-4" id="portfolioCol">
+            <div class="card mb-3 shadow-sm" id="profileCard githubCard">
+              <a href="https://github.com/SWHorne" target="blank">
+                <img
+                  id="cardImage"
+                  src="./Assets/Images/githubProfile.png"
+                  alt="Github profile"
+                />
+              </a>
+              <div class="card-body">
+                <div class="card-text">
+                  <a href="https://github.com/SWHorne" target="blank" id="cardTextLink">
+                    Click here
+                  </a> to see my projects and repositories.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4" id="portfolioCol">
+            <div class="card mb-3 shadow-sm" id="profileCard ResumeCard">
+              <a href="./Assets/Resume.pdf" target="blank">
+                <img
+                  id="cardImage"
+                  src="./Assets/Images/Resume.png"
+                  alt="Resume"
+                />
+              </a>
+              <div class="card-body">
+                <div class="card-text">
+                  To view my qualifications and work history, please 
+                  <a href="./Resume.pdf" target="blank" id="cardTextLink">
+                    click here.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4" id="portfolioCol">
+            <div class="card mb-3 shadow-sm" id="profileCard linkedIncard">
+              <a href="https://www.linkedin.com/in/samuelhorne/" target="blank">
+                <img
+                  id="cardImage"
+                  src="./Assets/Images/LinkedInProfile.png"
+                  alt="Linked profile"
+                />
+              </a>
+              <div class="card-body">
+                <div class="card-text">
+                  You can also find me on 
+                  <a
+                    href="https://www.linkedin.com/in/samuelhorne/"
+                    target="blank" id="cardTextLink"
+                  >
+                    LinkedIn.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="navbar" id="bottomNav">
+        <a href="tel:8012432261" id="FootText">801-243-2261</a>
+
+        <a href="mailto: swhorne@gmail.com" id="FootText">swhorne@gmail.com</a>
+
+        <a href="https://github.com/SWHorne" id="FootText">GitHub</a>
+
+        <a href="https://www.linkedin.com/in/samuelhorne/" id="FootText">LinkedIn</a>
+
+        <a href="./Assets/Resume.pdf" id="FootText">Resume</a>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <!-- fontawesome -->
+    <!-- <script src="https://kit.fontawesome.com/30f99fa860.js" crossorigin="anonymous"></script> -->
+
+    <!-- bootstrap -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script> -->
+
+    <!-- Popper -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script> -->
+
+
+</body>
+
+</html>
